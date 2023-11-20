@@ -25,5 +25,11 @@ public class Ex02 {
         System.out.println(num5);
         System.out.println(num6);
 
+
+        for (Integer i=0; i<6; i = i + 1) {
+            Integer lotto;
+            lotto = (int)(Math.random()*10);
+            System.out.println(lotto);
+        }
     }
 }
